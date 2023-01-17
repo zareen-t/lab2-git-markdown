@@ -11,10 +11,13 @@ tasks are comparable.  Here are the tasks:
    you use multiple) here underneath.  Use markdown _code blocks_ to
    mark your commands.
    
-   Here is an example:
    ```
-   cd Desktop/school/info201/labs
+   cd /c/Users/zaree/OneDrive/Documents/UW/Info201/lab2-git-markdown
+
    ```
+   
+   
+   
 
 1. **fork** this repository on Github under your user name (see
    [course book 4.6.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#forking-and-cloning)).
