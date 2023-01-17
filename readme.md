@@ -65,14 +65,41 @@ tasks are comparable.  Here are the tasks:
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
-   My add was successful because I can see that the branch is up to date and that there is nothing to commit. 
+   My add was successful but I need to commit still.
+   
+   ```
+   On branch main
+   Your branch is up to date with 'origin/main'.
+
+   Changes not staged for commit:
+   (use "git add <file>..." to update what will be committed)
+   (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
+
+   no changes added to commit (use "git add" and/or "git commit -a")
+   ```
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
    
+   ```
+   [main 853d19e] moreee change
+   1 file changed, 18 insertions(+), 2 deletions(-)
+   ```
+   
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
+   My commit was not fully succesful since I still need to push my changes.
+   
+   ```
+   On branch main
+   Your branch is ahead of 'origin/main' by 1 commit.
+   (use "git push" to publish your local commits)
+
+   nothing to commit, working tree clean
+
+   ```
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
