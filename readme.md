@@ -16,8 +16,6 @@ tasks are comparable.  Here are the tasks:
 
    ```
    
-   
-   
 
 1. **fork** this repository on Github under your user name (see
    [course book 4.6.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#forking-and-cloning)).
@@ -31,6 +29,7 @@ tasks are comparable.  Here are the tasks:
    (file -> new file -> markdown file), or any other tool you find
    convenient.
    
+   
 4. add a numbered list of book you like to this file
    (see [Github markdown
    docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)). 
@@ -41,15 +40,32 @@ tasks are comparable.  Here are the tasks:
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
    
+  ```
+  On branch main
+  Your branch is up to date with 'origin/main'.
+
+  Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        books.md
+
+  nothing added to commit but untracked files present (use "git add" to track)
+
+  ```
    Explain, in plain text, what does it mean.
+   
+   In plain words git status informs you the state of the repo. It tells you if any files were changed, or not tracked. In this case we can conclude that our file was not added yet. It informs you to add it to track.
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+  ```
+  git add books.md
+  ```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+   My add was successful because I can see that the branch is up to date and that there is nothing to commit. 
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
